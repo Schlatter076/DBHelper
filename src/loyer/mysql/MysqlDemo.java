@@ -17,8 +17,8 @@ public class MysqlDemo {
 
   public static void main(String[] args) {
     try {
-      //writeToDB();
-      readFromDB();
+      writeToDB();
+      //readFromDB();
       
     } catch (Exception e) {
       e.printStackTrace();
